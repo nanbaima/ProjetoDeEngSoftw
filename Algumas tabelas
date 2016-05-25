@@ -16,23 +16,22 @@ FORNECEDOR
   Observações
 ---------------------------------------------
 CLIENTE
-  Nome
-  Pessoa física ou jurídica
-  Data Nascimento(se pessoa física)
-  Sexo (se pessoa física)
-  Telefone
-  Celular
-  RG (se pessoa física)
-  CPF RG (se pessoa física)
-  CNPJ
-  IE
-  Endereço
-  Bairro
-  Cidade
-  Estado
-  CEP
-  Email
-  Observações
+  Nome--> name: Integer
+  Pessoa física ou jurídica --> type:boleam
+  Data Nascimento(se pessoa física) --> date: Integer
+  Sexo (se pessoa física) --> gender: boleam
+  Telefone --> phoneNumber: Integer
+  Celular--> cellNumber: Integer
+  RG (se pessoa física) --> ID: Integer
+  CPF/CNPJ --> CPF/CNPJ: Integer
+  IE --> IE: Integer
+  Endereço -> address: Integer
+  Bairro --> neighborhood: Integer
+  Cidade --> city: Integer
+  Estado --> state: Integer
+  CEP--> zipCode: Integer
+  Email--> email: Integer
+  Observações--> obs: Integer
 ---------------------------------------------
 UNIDADE
   id
