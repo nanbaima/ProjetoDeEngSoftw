@@ -1,0 +1,63 @@
+Segue abaixo algumas tabelas e seus campos:
+
+---------------------------------------------
+FORNECEDOR
+  Nome
+  Telefone
+  Celular
+  CNPJ
+  IE
+  Endereço
+  Bairro
+  Cidade
+  Estado
+  CEP
+  Email
+  Observações
+---------------------------------------------
+CLIENTE
+  Nome--> name: Integer
+  Pessoa física ou jurídica --> type:boleam
+  Data Nascimento(se pessoa física) --> date: Integer
+  Sexo (se pessoa física) --> gender: boleam
+  Telefone --> phoneNumber: Integer
+  Celular--> cellNumber: Integer
+  RG (se pessoa física) --> ID: Integer
+  CPF/CNPJ --> CPF/CNPJ: Integer
+  IE --> IE: Integer
+  Endereço -> address: Integer
+  Bairro --> neighborhood: Integer
+  Cidade --> city: Integer
+  Estado --> state: Integer
+  CEP--> zipCode: Integer
+  Email--> email: Integer
+  Observações--> obs: Integer
+---------------------------------------------
+UNIDADE
+  id
+  descrição (ex: kg, metro, peça...)
+---------------------------------------------
+MATÉRIA PRIMA
+  Descrição
+  Unidade
+  Grupo
+  Subgrupo
+  Cores*
+---------------------------------------------
+PRODUTO
+  Descrição
+  Grupo
+  Subgrupo
+  Matéria-prima**
+  Cores**
+  Tamanhos**
+---------------------------------------------
+ORDEM DE PRODUÇÃO
+  Data
+  Produtos**
+  Quantidade de cada produto
+---------------------------------------------
+
+
+*Muitos para muitos (tabela associativa)
+
